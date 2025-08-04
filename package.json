@@ -8,7 +8,7 @@
   "dev": "nodemon api/index.js",
   "start": "node api/index.js",
   "build": "npm run build --prefix client",
-  "postinstall": "npm install --prefix api && npm install --prefix client"
+  "postinstall": "npm install && npm install --prefix client"
 },
   "repository": {
     "type": "git",
