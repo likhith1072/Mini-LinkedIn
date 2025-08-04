@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGO).then(()=>{console.log('Connected to mongoDB'
 const __dirname = path.resolve();
 const app=express();
 const origin = process.env.NODE_ENV === 'production'
-  ? 'https://linknest-mny5.onrender.com'
+  ? 'https://mini-linkedin-2.onrender.com'
   : 'http://localhost:5173';
 
 app.use(cors({
