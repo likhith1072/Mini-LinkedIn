@@ -66,7 +66,7 @@ function Post({ post, handleDeletePost }) {
     const handleLike =async(postId)=>{
       try {
        if(!currentUser){
-         navigate('/sign-in');
+         navigate('/signin');
          return;
        }
        const res=await fetch(`/api/post/likepost/${postId}`,{
