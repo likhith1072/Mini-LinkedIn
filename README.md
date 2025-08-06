@@ -5,7 +5,7 @@ It supports user authentication, posting, liking, deleting posts, and profile ma
 
 ## 🌐 Live Demo
 
-(https://mini-linkedin-2.onrender.com/) *(update if needed)*
+(https://mini-linkedin-2.onrender.com/)
 
 ## 📁 Project Structure
 
